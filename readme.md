@@ -1,7 +1,51 @@
-# 박미금 | Portfolio Website
+<div align="center">
 
-Full Stack Developer 포지션을 위한 박미금의 개인 포트폴리오입니다.
-기존의 밝은 배경, 보라색 포인트, 원형 히어로와 연락처/문의 폼 레이아웃을 사용합니다.
+<h1>박미금 | Developer Portfolio</h1>
+
+<p><strong>Full Stack Developer · Data Analysis &amp; AI Application</strong></p>
+<p>기술을 배우는 데 그치지 않고, 아이디어를 실제 서비스로 구현합니다.</p>
+
+<p>
+  <a href="https://developer.mozilla.org/ko/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5"></a>
+  <a href="https://developer.mozilla.org/ko/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3"></a>
+  <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="Vanilla JavaScript"></a>
+</p>
+<p>
+  <a href="https://fsclass-n.github.io/parkmigeum/"><img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Pages 배포 사이트"></a>
+  <a href="https://parkmigeum.netlify.app/"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&amp;logo=netlify&amp;logoColor=white" alt="Netlify 배포 사이트"></a>
+  <a href="https://web3forms.com/"><img src="https://img.shields.io/badge/Web3Forms-6C5CE7?style=for-the-badge" alt="Web3Forms 이메일 문의"></a>
+</p>
+<p>
+  <a href="#license"><img src="https://img.shields.io/badge/License-Not%20specified-lightgrey?style=flat-square" alt="라이선스: 미지정"></a>
+  <a href="https://github.com/fsclass-n/parkmigeum/issues"><img src="https://img.shields.io/github/issues/fsclass-n/parkmigeum?style=flat-square&amp;label=Open%20issues&amp;color=6C5CE7" alt="열린 GitHub 이슈 수"></a>
+  <a href="https://github.com/fsclass-n/parkmigeum"><img src="https://img.shields.io/github/repo-size/fsclass-n/parkmigeum?style=flat-square&amp;label=Repo%20size&amp;color=1572B6" alt="리포지토리 크기"></a>
+  <a href="https://github.com/fsclass-n/parkmigeum/commits/main/"><img src="https://img.shields.io/github/last-commit/fsclass-n/parkmigeum/main?style=flat-square&amp;label=Last%20commit&amp;color=16803D" alt="main 브랜치 최근 커밋"></a>
+</p>
+
+<p>
+  <a href="https://fsclass-n.github.io/parkmigeum/"><strong>GitHub Pages 바로가기</strong></a>
+  · <a href="https://parkmigeum.netlify.app/"><strong>Netlify 바로가기</strong></a>
+  · <a href="https://github.com/fsclass-n/parkmigeum/issues">이슈 등록</a>
+</p>
+
+</div>
+
+## 프로젝트 소개
+
+웹 개발·데이터 분석·AI 활용 역량과 프로젝트 경험을 소개하는 박미금의 개인 포트폴리오입니다.
+HTML, CSS, JavaScript로 제작했으며, 밝은 배경과 보라색 포인트를 사용한 반응형 화면과
+Web3Forms 기반 이메일 문의 폼을 제공합니다.
+
+![박미금 포트폴리오 메인 화면](images/portfolio.webp)
+
+## 배포 주소
+
+| 배포 환경 | 접속 주소 | 배포 구성 |
+| --- | --- | --- |
+| GitHub Pages | **https://fsclass-n.github.io/parkmigeum/** | `main` 브랜치의 루트(`/`)에서 정적 사이트 제공 |
+| Netlify | https://parkmigeum.netlify.app/ | `netlify.toml`의 `publish = "."` 설정 사용 |
+
+별도의 빌드 과정 없이 HTML·CSS·JavaScript 파일을 직접 제공하는 정적 사이트입니다.
 
 ## Features
 
@@ -14,10 +58,13 @@ Full Stack Developer 포지션을 위한 박미금의 개인 포트폴리오입�
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Netlify
+| 기술 | 활용 |
+| --- | --- |
+| HTML5 | 시맨틱 페이지 구조, 프로젝트 콘텐츠, 문의 폼 |
+| CSS3 | 반응형 레이아웃, 카드 디자인, 애니메이션 |
+| Vanilla JavaScript | 메뉴·스크롤 인터랙션, 폼 검증·비동기 전송 |
+| Web3Forms | 별도 백엔드 없이 이메일 문의 접수 |
+| GitHub Pages · Netlify | 정적 사이트 배포 |
 
 ## Verification
 
@@ -48,3 +95,8 @@ python -m http.server 8000
 - 개인 사이트의 GitHub 소개는 `https://fsclass-n.github.io/parkmigeum/`으로 연결합니다.
 - About의 개발 역량 소개는 사용자 요청에 따라 작성한 가정 기반 자기소개입니다. 실제 경력에 맞춰 수정할 수 있습니다.
 - 프로젝트 기능·기술 설명은 실제 서비스와 공개 프로젝트 소개 페이지를 기준으로 작성했습니다.
+
+## License
+
+현재 별도의 `LICENSE` 파일이 없으며, 공개 라이선스는 아직 지정되지 않았습니다.
+상단 배지는 이 상태를 표시합니다. 라이선스를 지정할 경우 `LICENSE` 파일과 배지를 함께 갱신합니다.
